@@ -3,7 +3,9 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
+body {
+  margin: 100px 0;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 48px !important;
@@ -33,7 +35,6 @@ h1 {
 
 h2 {
   font-size: 48px;
-  padding-top: 50px;
 }
 
 h3 {
